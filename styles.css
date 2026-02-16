@@ -1,0 +1,633 @@
+/* ===================================
+   ESTILOS GENERALES
+   =================================== */
+
+/* Reset básico - elimina márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f4f4;
+}
+
+/* ===================================
+   HEADER - CABECERA
+   =================================== */
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #3498db;
+}
+
+/* Enlaces del menú de navegación */
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+header nav a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* ===================================
+   MAIN - CONTENIDO PRINCIPAL
+   =================================== */
+
+/* Contenedor principal centrado */
+main {
+    position: relative;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+/* Títulos h2 */
+h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/*Títulos h3 */
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* ===================================
+   SECCIÓN SOBRE MÍ
+   =================================== */
+
+#sobre-mi img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    display: block;
+}
+
+/* Elemento marcado */
+mark {
+    background-color: #2c3e50;
+    color:#ecf0f1;
+    padding: 2px 5px;
+}
+
+/* ===================================
+   FOOTER
+   =================================== */
+
+footer {
+    background-color: #2c3e50;
+    color:#ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color:#3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #5dade2;
+}
+
+/* Espaciado en listas de navegación */
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Espaciado en secciones */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Espaciado en artículos */
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Espaciado en párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Espaciado en listas */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Espaciado en imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Espaciado en tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+td img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Espaciado en formularios */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+label {
+    display:inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Espaciado en botones */
+button {
+    padding: 12px 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+}
+
+button[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+/* Lineas horizontales */
+hr {
+    border: none;
+    border: 1px solid #bdc3c7;
+    margin: 30px 0;
+}
+
+/* Espaciado en detalles/sumary */
+details {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    margin: -15px -15px 15px -15px;
+    background-color: #ecf0f1;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Barras de progreso */
+progress {
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* Configuración base de tipografía */
+html {
+    font-size: 16px; /* Base para rem */
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #2c3e50;
+}
+
+/* Títulos con Poppins */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+/* Tamaño de títulos con rem */
+h1 {
+    font-size: 2.5rem; /* 40px si base es 16px */
+}
+
+h2 {
+    font-size: 2rem;    /* 32px */
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 1.5rem;  /* 24px */
+    font-weight: 600;
+    color: #34495e;
+}
+
+h4 {
+    font-size: 1.25rem; /* 20px */
+}
+
+/* Párrafos */
+p {
+    font-size: 1rem;    /* 16px */
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+/* Énfasis */
+strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+em {
+    font-style: italic;
+    color: #555;
+}
+
+/* Elemento marcado */
+mark {
+    background-color: #f39c12;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* Enlaces */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Citas y detalles */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Summary (detalles) */
+summary {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Leyendas de formulario */
+legend {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+/* Labels de formulario */
+label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* Botones */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Tabla */
+table {
+    font-size: 0.95rem;
+}
+
+table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Texto pequeño */
+small {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+/* Figcaption */
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7f8c8d;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* ===================================
+   LAYOUT BÁSICO
+   =================================== */
+
+/* Navegación con items inline-block */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+}
+
+/* Indicador activo en navegación */
+header nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+
+header nav ul li:hover::after {
+    width: 100%;
+}
+
+/* Botón "Volver arriba" fijo */
+a[href="#top"] {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+
+a[href="#top"]:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+/* Secciones con display block */
+section {
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Artículos dentro de proyectos */
+#proyectos article {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* Progress bars inline-block */
+progress {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Tabla con display table (por si acaso) */
+table {
+    display: table;
+    width: 100%;
+}
+
+/* Botones inline-block */
+button {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Footer con secciones */
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-bottom: 20px;
+    
+}
+
+/* Iframe responsive */
+iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fade in suave al cargar */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =====================================
+   TARJETAS DE PROYECTOS
+   ===================================== */
+
+#proyectos article {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#proyectos article::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2ecc71, #e74c3c);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+#proyectos article:hover {
+    transform: translateY(-8px);
+    box-shadow: 
+        0 15px 40px rgba(0, 0, 0, 0.15),
+        0 0 0 2px rgba(52, 152, 219, 0.1);
+}
+
+#proyectos article:hover::before {
+    transform: scaleX(1);
+}
+
+/* =====================================
+   ENLACES DE CONTACTO
+   ===================================== */
+
+#contacto a {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#contacto a::before {
+    content: '→';
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#contacto a:hover {
+    padding-left: 35px;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+#contacto a:hover::before {
+    left: 15px;
+    opacity: 1;
+}
+
+/* =====================================
+   TABLA CON HOVER
+   ===================================== */
+
+table tr {
+    transition: all 0.2s ease;
+}
+
+table tbody tr:hover {
+    background-color: rgba(52, 152, 219, 0.05);
+    transform: scale(1.01);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-labelledby="title desc">
+  <title id="title">CCST Cybersecurity</title>
+  <desc id="desc">Cisco CCST Cybersecurity logo</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="232" height="112" rx="18" fill="url(#bg)" stroke="#1f2937"/>
+  <g transform="translate(18 18)">
+    <path d="M42 10L58 14L58 38C58 54 49 66 32 76C15 66 6 54 6 38V14L22 10L32 12L42 10Z" fill="url(#accent)" opacity="0.95"/>
+    <path d="M20 36L28 44L44 28" fill="none" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="86" cy="42" r="12" fill="#1e293b" stroke="#e2e8f0" stroke-width="2"/>
+    <path d="M86 28V42L94 50" fill="none" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="118" y="46" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="1">CCST</text>
+  <text x="118" y="72" fill="#a5f3fc" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">CYBERSECURITY</text>
+</svg>

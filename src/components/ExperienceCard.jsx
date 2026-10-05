@@ -5,7 +5,15 @@ export default function ExperienceCard({ experience }) {
         <div className="d-flex justify-content-between flex-wrap gap-2 mb-2">
           <div className="experience-title">
             <span className="company-logo-frame">
-              <img className="company-logo" src={experience.logo} alt={experience.company} />
+              {experience.logoIcon ? (
+                <i
+                  className={`company-logo-icon ${experience.logoIcon}`}
+                  role="img"
+                  aria-label="Icono de reparación de equipos informáticos"
+                />
+              ) : (
+                <img className="company-logo" src={experience.logo} alt={experience.company} />
+              )}
             </span>
             <h5 className="fw-bold mb-0">{experience.role}</h5>
           </div>

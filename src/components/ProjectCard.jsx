@@ -2,11 +2,13 @@ export default function ProjectCard({ project }) {
   const cardContent = (
         <div className="card h-100 glass-card project-card rounded-4 overflow-hidden">
       {project.image && (
-        <div className="project-thumbnail-wrapper">
+        <div
+          className={`project-thumbnail-wrapper${project.thumbnailFit === "natural" ? " project-thumbnail-wrapper-natural" : ""}`}
+        >
           <img
             src={project.image}
             alt={`Vista previa de ${project.title}`}
-            className="project-thumbnail-img"
+            className={`project-thumbnail-img${project.thumbnailFit === "contain" ? " project-thumbnail-img-contain" : project.thumbnailFit === "natural" ? " project-thumbnail-img-natural" : ""}`}
             loading="lazy"
           />
         </div>

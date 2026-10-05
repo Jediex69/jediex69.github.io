@@ -75,7 +75,7 @@ export const experiences = [
     id: "omanet-reparacion",
     company: "Omanet",
     role: "Técnico de reparación de sistemas informáticos",
-    logo: omanetLogo,
+    logoIcon: "bi bi-pc-display",
     period: "2001 — 2005",
     delayClass: "reveal-delay-3",
     tasks: [

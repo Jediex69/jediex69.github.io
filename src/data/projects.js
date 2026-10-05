@@ -1,3 +1,7 @@
+import electrotransImage from "../assets/electrotrans-homepage.png";
+import smitelImage from "../assets/smitel-homepage.png";
+import passKeeperImage from "../assets/passkeeper-homepage.png";
+
 export const projects = [
   {
     title: "Smitel Group",
@@ -6,7 +10,18 @@ export const projects = [
       "Sitio web corporativo desarrollado y optimizado durante el periodo de prácticas en Smalldev mediante WordPress y maquetadores visuales.",
     tech: ["WordPress", "Divi", "Elementor", "CSS", "PHP"],
     link: "https://smitelgroup.com/",
-    image: "https://smitelgroup.com/wp-content/uploads/2026/09/smitelgroup.png",
+    image: smitelImage,
+    thumbnailFit: "natural",
+  },
+  {
+    title: "Electrotrans",
+    category: "Desarrollo Web / WordPress",
+    description:
+      "Sitio web desarrollado durante mis prácticas de DAW en Smalldev para Electrotrans, utilizando WordPress y los maquetadores visuales Elementor y Divi.",
+    tech: ["WordPress", "Divi", "Elementor", "CSS", "PHP"],
+    link: "https://electrotrans.es/",
+    image: electrotransImage,
+    thumbnailFit: "natural",
   },
   {
     title: "PassKeeper",
@@ -15,6 +30,8 @@ export const projects = [
       "Aplicación web tipo bóveda para gestión segura de credenciales, desarrollada como proyecto final DAW con PHP, MySQL, HTML, CSS y JavaScript.",
     tech: ["PHP", "MySQL", "JavaScript", "Seguridad"],
     link: "https://github.com/Jediex69/PassKeeper",
+    image: passKeeperImage,
+    thumbnailFit: "natural",
   },
   {
     title: "CTF Reports",
